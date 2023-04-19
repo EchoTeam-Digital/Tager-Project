@@ -1,0 +1,57 @@
+
+
+
+
+.nav{
+    background-color: #24292E;
+    height: 64px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.logo{
+    margin-left: 15px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo2{
+    border-radius: 1px;
+}
+.name_store{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.search{
+    margin-left: 185px;
+    color: white;
+    margin-top: 10px;
+}
+.search:hover{
+    
+    color: #007FFF;
+}
+.items_nav1,.items_nav2,.items_nav3{
+    color: white;
+    margin-right: 40px;
+    margin-top: 2px;
+}
+.items_nav1,.items_nav2{
+    color: white;
+    margin-right: 40px;
+    margin-top: 12px;
+}
+.items_nav1:hover,.items_nav2:hover,.items_nav3:hover{
+    
+    color: #007FFF;
+}
+

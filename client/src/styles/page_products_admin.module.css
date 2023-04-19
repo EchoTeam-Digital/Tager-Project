@@ -1,0 +1,157 @@
+
+.father{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.page_report{
+    display: block;
+    width: 100%;
+    height: 90px;
+    margin-top: 50px;
+}
+
+.add_montog{
+    margin-right: 20px;
+}
+
+/* _______________________ */
+
+
+.page_product{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-bottom: 1px solid rgb(227, 234, 240) ;
+}
+.div_input_search_product{
+    width: auto;
+    margin-right: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.input_search_product{
+    margin-top: 22px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    color: #4c4f55;
+    background-color: rgb(232, 239, 245);
+    border-bottom: 1px solid rgb(233, 238, 243) ;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 3px 4px rgba(99, 96, 96, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+
+
+
+.input_search_product::placeholder{
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.icon_search{
+    font-size: 24px;   
+    color: #4c4f55; 
+    margin-right: 6px;
+}
+
+
+/* _________________- */
+
+.div_card{
+    /* background-color: chartreuse; */
+    text-align: center;
+}
+.image_card {
+    border-radius: 6px;
+    margin: 10px;
+}
+
+
+
+
+.card_product{
+    width: 265px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: none !important;
+    margin-top: 15px;
+
+}
+.div_text_card{
+    /* padding: 10px; */
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_card{
+    color: #0B1725;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: end;
+
+}
+.text_card1{
+    padding-top: 4px;
+    color: #0B1725;
+    text-align: end;
+}
+.text_card2{
+    color: #E29600;
+    font-size: 17px;
+    font-weight: 700;
+}
+.div_btn_edit{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+}
+.btn_edit{
+    background-color: #007FFF;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.btn_edit:hover{
+    transform: scale(0.9);
+    cursor: pointer; 
+}
+
+.btn_delete{
+    background-color: #DC3545;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_delete:hover{
+    background-color: #d12637;
+    transform: scale(0.9);
+    cursor: pointer; 
+}
+.btn_delete:active{
+    background-color: #d12637;
+    transform: scale(0.9);
+}
+
+.btn_delete:hover{
+    background-color: #d12637;
+    transform: scale(0.9);
+    cursor: pointer; 
+}
+
+.name{
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+

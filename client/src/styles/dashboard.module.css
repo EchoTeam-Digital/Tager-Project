@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+.father{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.page_products{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 66px;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+
+.card{
+    background: #2f3e58;
+    margin-top: 10px;
+    padding: 15px;
+    padding-top: 6px;
+    margin-left: 9px;
+    margin-right: 9px;
+    height: 160px;
+    border-radius: 9px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    /* transition: all .9s ease; */
+
+
+}
+
+
+.profit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_pounds{
+    font-size: 27px;
+    color: #C9D3E8;
+    cursor: pointer;
+    padding-top: 11px;
+
+}
+
+
+.name_profit{
+    font-size: 16px;
+    padding-top: 5px;
+    margin-left: 9px;
+    color: #C9D3E8;
+    text-decoration: none;
+}
+.name_profit:hover{
+    color: #C9D3E8;
+}
+
+.profit2{
+    /* background-color: blueviolet; */
+    height: 70%;
+    padding: 10px;
+    padding-top: 16px;
+    text-align: center;
+    
+}
+
+.price_profit2{
+    direction: rtl;
+    font-size: 29px;
+    color: white;
+    text-decoration: none;
+}
+
+.price_profit2:hover{
+    color: white;
+}
+
+.name_profit2{
+    font-size: 15px;
+    color: #8d9aa7;
+    text-decoration: none;
+}
+.name_profit2:hover{
+    color: #8d9aa7;
+
+}

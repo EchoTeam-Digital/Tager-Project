@@ -1,0 +1,90 @@
+
+
+
+.main{
+
+    text-align: center;
+    height: auto;
+    width: 100%;
+
+}
+.imguser{
+    display: block;
+    text-align: center;
+    margin-top: 22px;
+    
+}
+.login_form{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 320px;
+
+}
+
+.sign{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.the_input{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 14px;
+    border: 0.2px solid #dcf0ee;
+    transition: border 0.5s ease-out;
+    outline: none;
+    border-radius: 8px;
+   
+}
+
+.the_input::placeholder{
+    font-size: 16px;    
+}
+.the_input:focus{
+    border: 1px solid #75CFC9;
+}
+.rem_password{
+    display: block;
+    text-align: end;
+    margin-top: 22px;
+    text-decoration: none;
+    color: #103d3a;
+}
+.btn_signup{
+   
+    background-color: #75CFC9;
+    color: white;
+    margin-top: 20px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+
+}
+
+.signup_email{
+    display: flex;
+    text-decoration: none;
+    /* background-color: #29B6AB; */
+    color: #75CFC9;
+    margin-top: 20px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #75CFC9;
+}
+.second1{
+    color: #103d3a;
+    margin-top: 9px;
+}
+.second2{
+    text-decoration: none;
+    color: #75CFC9;
+}
